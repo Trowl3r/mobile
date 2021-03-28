@@ -1,0 +1,38 @@
+name: hononym
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.6.0+2
+ 
+  geolocator: 5.0.1
+  uuid: ^2.0.0
+  image: ^2.0.7
+  animator: 0.1.4
+  cupertino_icons: ^0.1.2
+  path_provider: ^0.5.0+1
+  timeago: 2.0.17
+  cached_network_image:
+  flutter_svg:
+  http:
+  flutter_secure_storage: ^3.3.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto.ttf
+  assets:
+    - assets/images/google_signin_button.png
